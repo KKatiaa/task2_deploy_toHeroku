@@ -44,4 +44,4 @@ jobs:
       - name: Delete old container
         run: docker rm -f task3-app-container
       - name: Run docker container
-        run: docker run -d -p 5000:5000 --name task3-app-container kateryna123/task3-app
+        run: docker run -d -p 81:81 --name task3-app-container kateryna123/task3-app
